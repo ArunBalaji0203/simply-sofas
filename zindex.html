@@ -1,0 +1,41 @@
+<html>
+    <title>zindex</title>
+    <head>
+        <style>
+             .span1{
+                margin-top: 10px;
+                left: 20px;
+                position: absolute;
+                padding: 30px;
+                background-color: rgb(47, 245, 21);
+                border-radius: 4px;
+                z-index: 1;
+            }
+            .span2{
+                position: absolute;
+                top: 40px;
+                left: 40px;
+                padding: 30px;
+                background-color: rgb(245, 122, 21);
+                border-radius: 4px;
+                z-index: 7;
+            }
+            .span3{
+                position: absolute;
+                top: 60px;
+                left: 60px;
+                padding: 30px;
+                background-color: rgb(137, 19, 197);
+                border-radius: 4px;
+                z-index: 1;
+            }
+        </style>
+        <body>
+            <div class="box">
+                <span class="span1">box1</span>
+                <span class="span2">box2</span>
+                <span class="span3">box3</span>
+            </div>
+        </body>
+    </head>
+</html>

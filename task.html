@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <TItle>ADDITION</TItle>
+        <script>
+            function addition(){
+                var num1=document.getElementById("num1").value;
+                var num2=document.getElementById("num2").value;
+               var num3= parseInt(num1)+parseInt(num2);
+               document.getElementById("result").innerHTML=num3;
+            }
+            function subtraction(){
+                var num1=document.getElementById("num1").value;
+                var num2=document.getElementById("num2").value;
+               var num3= parseInt(num1)-parseInt(num2);
+              document.getElementById("result").innerHTML=num3;  
+
+            }
+        </script>
+        <style>
+           .content{  
+                border: 2px solid black;
+                margin:auto;
+                margin-top: 4cm;
+                width: 300px;
+                height: 300px;
+                padding: 1cm;
+            }
+            .res{
+                font-size: larger;
+            }
+        </style>
+    </head>
+<body>
+    <div class="content">
+        <header><center><strong>ADDITION</strong></center></header><br><br>
+        <center>
+            input 1 <input type="number" id="num1" ><br><br><br><br>
+            input 2 <input type="number" id="num2"><br><br><br>
+         <button1 onclick="subtraction()" style="background-color: rgba(18, 43, 231, 0.707);padding: 8px;border-radius: 8px;" >Sub</button1> 
+         <button2 onclick="addition()" style="background-color: rgba(18, 43, 231, 0.707);padding: 8px;border-radius: 8px;" >Add</button2> 
+        </center>
+    </div>
+    <div class="res">
+            <strong>
+               <center><p>THE RESULT IS: <span id="result"></span></p></center> 
+            </strong>
+    </div>
+</section>
+<!--<footer><center><strong>contact us : </strong><em>Arun balaji</em></center></footer>-->
+</body>
+</html>
