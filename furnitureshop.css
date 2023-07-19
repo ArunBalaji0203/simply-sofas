@@ -262,6 +262,7 @@ p{
 }
 .container-8 img{
     padding-left: 10px;
+    width:25%
 }
 .container-8 img:hover{
     transition: 0.5s ease-in-out;
@@ -356,6 +357,7 @@ p{
     justify-content: center;
     margin-left: 75px;
     padding-top: 50px;
+    width: 65%;
 }
 .container-4 h6{
     text-align: center;
@@ -444,6 +446,7 @@ font-weight: 340;
     position: relative;
 }
 .play-bt-innov{
+    display: none;
     position: absolute;
     margin-top: 30%;
     margin-left: 50%;
@@ -505,8 +508,9 @@ font-weight: 340;
     margin-left: 23%;
     margin-right: 26%;
 }
-.innov-map{
-    justify-content: center;
+.innov-map img{
+    margin-left: 7%;
+    width: 75%;
 }
 .innovations-sect-6{
     background-color: aqua;
@@ -909,5 +913,19 @@ input:hover{
     border: 1px solid rgb(114, 111, 111);
     transform: scale(1.03);
     box-shadow: 1px 1px 5px gray;
+}
+.founder-text p{
+    margin-top: -40%;
+    font-size: x-large;
+    line-height: 45px;
+}
+.founder-text strong{
+    font-size: xx-large;
+}
+.founder-heading h3{
+    font-size: xxx-large;
+}
+.about-sect-6{
+    height: fit-content;
 }
 }

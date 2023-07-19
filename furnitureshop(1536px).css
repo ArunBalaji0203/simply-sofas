@@ -1,4 +1,4 @@
-  @media only screen and (max-width:1536px) {
+  @media only screen and (min-width:1536px) {
   *{
     font-family: sans-serif;
     }
@@ -33,42 +33,11 @@
         background-color: black;
         transform: 1s;
         transition-duration: 0.7s;
-    
     }
     .item:hover .collection{
         display: flex;
         cursor: pointer;
     }
-    /* .founder{
-        display: none;
-        position: fixed;
-        margin-left: -33px;
-        margin-top: 8px;
-    }
-    .item:hover .founder{
-        display: block;
-        cursor: pointer;
-    }
-    .founder-items:hover{
-        background-color: black;
-        transform: 1s;
-        transition-duration: 0.7s;
-    }
-    .popup{
-        visibility: hidden;
-    }
-    .founder-items{
-        text-decoration: none;
-        color: white;
-        text-align: center;
-        width: 172px;
-        font-size: large;
-        margin-top: 13px;
-        padding-bottom: 17px;
-        padding-top: 22px;
-        background-color:  rgba(0,0,0,0.6);
-        height: 20px;
-    } */
     .logo{
         background-color: transparent;
         width: 0%;
